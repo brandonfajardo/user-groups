@@ -151,7 +151,7 @@ export default (state = initialState, { type, payload }) => {
           return { ...omit(state.groups, payload.groupId) };
         }
 
-        return { ...state.groups, ...x };
+        return { ...state.groups, ...group };
       };
 
       return {
