@@ -10,7 +10,6 @@ class Users extends Component {
   render() {
     const { users, deleteUser, groups } = this.props;
     const userList = Object.keys(users).map(i => users[i]);
-    console.log('Users render()', userList);
 
     const userArr = userList.map(user => {
       return {

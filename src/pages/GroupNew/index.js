@@ -75,7 +75,6 @@ class GroupNew extends Component {
             className={styles.field}
             variant="contained"
             color="default"
-            disabled={this.props.loading}
           >
             Submit
           </Button>

@@ -4,7 +4,9 @@ import GroupItem from './GroupItem';
 class GroupList extends Component {
   render() {
     return this.props.groups.map((group, i) => {
-      return <GroupItem {...this.props} group={group} />;
+      return (
+        <GroupItem key={`groupItem--${i}`} {...this.props} group={group} />
+      );
     });
   }
 }

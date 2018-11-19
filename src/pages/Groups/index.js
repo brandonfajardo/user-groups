@@ -12,8 +12,6 @@ class Groups extends Component {
     const userArr = Object.keys(users).map(i => users[i]);
     const groupList = Object.keys(groups).map(i => groups[i]);
 
-    console.log('Groups render()', groupList);
-
     const groupArr = groupList.map(group => {
       return {
         ...group,
