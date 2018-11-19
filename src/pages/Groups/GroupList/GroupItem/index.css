@@ -1,0 +1,35 @@
+.card {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.groupName {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background: lightgray;
+  margin-bottom: 20px;
+}
+
+.chip {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.addContainer {
+  padding: 14px;
+  margin-top: 10px;
+  width: 300px;
+}

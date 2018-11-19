@@ -1,0 +1,39 @@
+.card {
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  background: lightgray;
+}
+
+.usersName {
+  font-size: 25px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.chip {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
